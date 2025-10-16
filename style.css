@@ -275,3 +275,86 @@ p4{
 }
 #next { right: 40px; }  
 #prev { left: 40px; }
+
+/* 📱 Mobile View (max-width: 768px) */
+@media (max-width: 768px) {
+  
+  .nav1 {
+    font-size: 25px;
+    height: 40px;
+  }
+
+  .nav2 {
+    flex-direction: column;
+    height: auto;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  .nav2 a {
+    margin: 5px 0;
+  }
+
+  .top, .cover-para, .intro, .myintro, .intro-boxx, p4 {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20%;
+    margin-top: 20px;
+  }
+
+  .part, .reelscover, .work, .reel-section, .png, .idies {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .pic, .cover1, .cover11, .reeels {
+    width: 90%;
+    height: auto;
+  }
+
+  .reel-box {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .last {
+    font-size: 18px;
+    height: 40px;
+  }
+
+  #next, #prev {
+    font-size: 2rem;
+    top: 45%;
+  }
+}
+
+/* 📱 Extra Small Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  
+  .nav1 {
+    font-size: 22px;
+  }
+
+  .nav2 {
+    font-size: 16px;
+  }
+
+  .pic, .cover1, .cover11 {
+    width: 95%;
+    height: auto;
+  }
+
+  .intro, .myintro, .intro-boxx {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .reel-box {
+    font-size: 16px;
+  }
+
+  .last {
+    font-size: 16px;
+  }
+}
